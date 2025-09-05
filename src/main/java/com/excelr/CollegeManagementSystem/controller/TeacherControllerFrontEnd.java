@@ -9,6 +9,8 @@ public class TeacherControllerFrontEnd {
 	@GetMapping("/test1")
 	public String test()
 	{
+	    string name="rohit";
+		model.addAttribute(
 		return "test";
 	}
 	
